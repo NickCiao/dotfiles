@@ -16,6 +16,19 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
 brew install zsh zsh-completions
 ```
 
+## Install iTerm2
+
+```shell
+brew cask install iterm2
+```
+
+- Update color settings
+  - Preferences -> Profiles -> Colors -> Load Presets (e.g. monokai or solarized)
+
+## Install Powerline Fonts
+Install [Powerline fonts](https://github.com/powerline/fonts)
+[OSX installation instructions](https://powerline.readthedocs.io/en/latest/installation/osx.html)
+
 ## Install Oh-My-Zsh
 Oh my Zsh is installed by running one of the following commands in your terminal.
 
