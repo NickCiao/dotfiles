@@ -31,4 +31,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
-## Symlink .zshrc in this repo with the one in your `$HOME` directory.
+## Symlink dotfiles in this repo into the `$HOME` directory
