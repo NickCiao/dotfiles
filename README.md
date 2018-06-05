@@ -5,7 +5,8 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
 - In order for Oh-My-Zsh to work, Zsh must be installed.
   - Please run `zsh --version` to confirm.
   - Expected result: `zsh 5.1.1` or more recent
-- Additionally, Zsh should be set as your default shell `chsh -s /usr/local/bin/zsh`.
+- Additionally, Zsh should be set as your default shell 
+  - Run `chsh -s /usr/local/bin/zsh` to set Zsh as the default shell.
   - Please run `echo $SHELL` from a new terminal to confirm.
   - Expected result: `usr/bin/zsh` or similar
 
