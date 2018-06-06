@@ -95,3 +95,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Include env.sh, a config file we maintain so as to not pollute this file too much
+# source ~/<path to file>/env.sh
