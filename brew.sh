@@ -65,5 +65,8 @@ brew install rename
 brew install rlwrap
 brew install tree
 
+# Install casks
+brew cask install iterm2
+
 # Remove outdated versions from the cellar.
 brew cleanup
