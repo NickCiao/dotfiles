@@ -64,6 +64,7 @@ brew install zsh-completions
 brew install rename
 brew install rlwrap
 brew install tree
+brew install wget
 
 # Install casks
 brew cask install iterm2
