@@ -54,7 +54,7 @@ brew install rlwrap
 brew install tree
 brew install wget
 brew install curl
-brew install z
+brew install fasd
 
 # Install Python
 brew install python
