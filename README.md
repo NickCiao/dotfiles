@@ -3,7 +3,7 @@
 ## Update/Upgrade HomeBrew and Install binaries (macOS)
 
 ```sh
-./brew.sh
+sh brew.sh
 ```
 
 ## Set Zsh to the default shell
