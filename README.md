@@ -1,29 +1,19 @@
 ## Getting Started
 
-Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
-
-- In order for Oh-My-Zsh to work, Zsh must be installed.
-  - Please run `zsh --version` to confirm.
-  - Expected result: `zsh 5.1.1` or more recent
-- Additionally, Zsh should be set as your default shell 
-  - Run `chsh -s /usr/local/bin/zsh` to set Zsh as the default shell.
-  - Please run `echo $SHELL` from a new terminal to confirm.
-  - Expected result: `usr/bin/zsh` or similar
-
-## Install and set up zsh as default on macOS
+## Install stuff from brew (macOS)
 
 ```sh
-brew install zsh zsh-completions
+./brew.sh
 ```
 
-## Install iTerm2
-
-```shell
-brew cask install iterm2
+## Set Zsh to the default shell
+```sh
+chsh -s /bin/zsh
 ```
 
-- Update color settings
-  - Preferences -> Profiles -> Colors -> Load Presets (e.g. monokai or solarized)
+## Update iterm2 Color Presets
+- Preferences -> Profiles -> Colors -> Load Presets (e.g. monokai or solarized)
+
 
 ## Install Powerline Fonts
 Install [Powerline fonts](https://github.com/powerline/fonts)
