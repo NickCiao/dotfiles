@@ -66,6 +66,12 @@ brew install rlwrap
 brew install tree
 brew install wget
 
+# Install Python
+brew install python
+
+# Install Go
+brew install go
+
 # Install casks
 brew cask install iterm2
 
