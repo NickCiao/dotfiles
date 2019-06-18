@@ -59,10 +59,8 @@ brew install xz
 # Install other useful binaries.
 brew install ack
 brew install git
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
+brew install zsh
+brew install zsh-completions
 brew install rename
 brew install rlwrap
 brew install tree
