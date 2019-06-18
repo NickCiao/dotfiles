@@ -1,6 +1,6 @@
 ## Getting Started
 
-## Install stuff from brew (macOS)
+## Update/Upgrade HomeBrew and Install binaries (macOS)
 
 ```sh
 ./brew.sh
