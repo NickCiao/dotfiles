@@ -54,6 +54,7 @@ brew install rlwrap
 brew install tree
 brew install wget
 brew install curl
+brew install z
 
 # Install Python
 brew install python
