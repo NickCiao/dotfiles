@@ -63,6 +63,14 @@ brew install go
 
 # Install casks
 brew cask install iterm2
+brew cask install spotify
+brew cask install visual-studio-code
+brew cask install postman
+brew cask install slack
+brew cask install typora
+brew cask install kaleidoscope
+brew cask install dropbox
+brew cask install 1password
 
 # Remove outdated versions from the cellar.
 brew cleanup
