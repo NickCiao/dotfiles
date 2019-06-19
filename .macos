@@ -292,6 +292,9 @@ end tell
 
 EOD
 
+# Install the Solarized Dark theme for iTerm
+open "${HOME}/init/Solarized Dark.itermcolors"
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################

@@ -10,5 +10,4 @@ source /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github
 fpath+=( /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/git )
 source /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/z/z.plugin.zsh
 fpath+=( /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/plugins/z )
-source /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-subnixr-SLASH-minimal/minimal.zsh
-fpath+=( /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-subnixr-SLASH-minimal )
+source /Users/nick.chow/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh/themes/agnoster.zsh-theme
