@@ -1,37 +1,18 @@
-## Getting Started
+### Setting up your Mac
 
-## Update/Upgrade HomeBrew and Install binaries (macOS)
+If you did all of the above you may now follow these install instructions to setup a new Mac.
 
-```sh
-sh brew.sh
-```
+1. Update macOS to the latest version with the App Store
+2. Install Xcode from the App Store, open it and accept the license agreement
+3. Install macOS Command Line Tools by running `xcode-select --install`
+4. Copy your public and private SSH keys to `~/.ssh` and make sure they're set to `600`
+5. Clone this repo to `~/.dotfiles`
+6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
+7. Run `install.sh` to start the installation
+8. Restore preferences by running `mackup restore`
+9. Restart your computer to finalize the process
 
-## Set Zsh to the default shell
-```sh
-chsh -s /bin/zsh
-```
+Your Mac is now ready to use!
 
-## Update iterm2 Color Presets
-- Preferences -> Profiles -> Colors -> Load Presets (e.g. monokai or solarized)
+> Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
 
-
-## Install Powerline Fonts
-Install [Powerline fonts](https://github.com/powerline/fonts)
-[OSX installation instructions](https://powerline.readthedocs.io/en/latest/installation/osx.html)
-
-## Install Oh-My-Zsh
-Oh my Zsh is installed by running one of the following commands in your terminal.
-
-#### via curl
-
-```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
-#### via wget
-
-```shell
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-```
-
-## Symlink dotfiles in this repo into the `$HOME` directory
