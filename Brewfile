@@ -53,4 +53,5 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas '1Password', id: 1333542190
+mas 'Giphy Capture', id: 668208984
 mas 'WhatsApp', id: 1147396723 
