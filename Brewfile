@@ -26,6 +26,7 @@ brew 'go'
 brew 'node'
 
 # Apps
+cask '1password'
 cask 'aerial'
 cask 'docker'
 cask 'dropbox'
@@ -39,6 +40,7 @@ cask 'slack'
 cask 'spotify'
 cask 'typora'
 cask 'visual-studio-code'
+cask 'whatsapp'
 
 # Fonts
 cask 'font-lato'
@@ -50,6 +52,4 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas '1Password', id: 1333542190
 mas 'Giphy Capture', id: 668208984
-mas 'WhatsApp', id: 1147396723 
