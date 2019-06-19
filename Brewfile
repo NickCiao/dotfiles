@@ -14,7 +14,6 @@ brew 'git'
 brew 'curl'
 brew 'wget'
 brew 'grep'
-brew 'iterm2'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'trash' # Manage the Trash bin
@@ -34,6 +33,7 @@ cask 'dropbox'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
+cask 'iterm2'
 cask 'java'
 cask 'kaleidoscope'
 cask 'postman'
@@ -52,7 +52,6 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-menlo-for-powerline'
-
 
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
