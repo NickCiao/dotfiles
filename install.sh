@@ -10,9 +10,6 @@ fi
 # Update Homebrew recipes
 brew update
 
-# Upgrade any already-installed formulae.
-brew upgrade
-
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
@@ -36,4 +33,4 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+# source .macos

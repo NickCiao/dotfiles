@@ -6,7 +6,6 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 # Binaries
-brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
@@ -38,7 +37,6 @@ cask 'kaleidoscope'
 cask 'postman'
 cask 'slack'
 cask 'spotify'
-cask 'tor-browser'
 cask 'typora'
 cask 'visual-studio-code'
 
