@@ -10,9 +10,6 @@ fi
 # Update Homebrew recipes
 brew update
 
-# Ask for the admin password upfront
-sudo -v 
-
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
