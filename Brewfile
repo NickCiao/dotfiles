@@ -20,6 +20,7 @@ brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zsh'
 brew 'zsh-completions'
+brew 'kubernetes-cli'
 
 # Development
 brew 'go'
