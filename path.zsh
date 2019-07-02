@@ -12,3 +12,6 @@ export PATH=$PATH:$GOROOT/bin
 
 # Add python to PATH
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# Add Pip's user base binary directory to PATH
+export PATH="/Users/nickciao/Library/Python/3.7/bin:$PATH"
