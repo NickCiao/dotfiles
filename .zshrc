@@ -13,3 +13,6 @@ source $DOTFILES/aliases.zsh
 eval `ssh-agent`
 # Add ssh keys for prod-compute-01
 ssh-add ~/.ssh/prod-compute-01.pem
+
+# Alias aws-login
+alias aws-login='aws ecr get-login --no-include-email | sh'
