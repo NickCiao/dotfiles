@@ -5,7 +5,8 @@
 3. Install macOS Command Line Tools by running `xcode-select --install`
 4. Copy your public and private SSH keys to `~/.ssh` and make sure they're set to `600`
 5. Clone this repo to `~/.dotfiles`
-6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
+6. Install [`Oh-My-Zsh`] (https://github.com/ohmyzsh/ohmyzsh#getting-started)
+6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file.  This will add the Homebrew installed Zsh version to the list of login shells.
 7. Run `install.sh` to start the installation
 8. Restore preferences by running `mackup restore`
 9. Restart your computer to finalize the process
@@ -14,3 +15,7 @@ Your Mac is now ready to use!
 
 > Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
 
+### Some pointers on maintaining these dotfiles
+- When installing a new app, tool or font, try to install it with Homebrew and add it to the Brewfile.
+- When configuring a new app make sure to run `mackup backup` to save your preferences.
+- When changing an macOS setting, try setting it through the .macos file.

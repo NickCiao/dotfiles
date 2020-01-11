@@ -9,7 +9,6 @@ tap 'homebrew/bundle'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'getantibody/tap/antibody' # ZSH Plugin Manager
 brew 'git'
 brew 'curl'
 brew 'wget'
