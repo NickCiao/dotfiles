@@ -8,10 +8,9 @@ This is heavily based on `https://github.com/driesvints/dotfiles`
 4. Copy your public and private SSH keys to `~/.ssh` and make sure they're set to `600`
 5. Clone this repo to `~/.dotfiles`
 6. Install [`Oh-My-Zsh`] (https://github.com/ohmyzsh/ohmyzsh#getting-started)
-7. Install `PowerLevel9k` Theme: `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
-8. Run `install.sh` to start the installation
-9. Restore preferences by running `mackup restore`
-10. Restart your computer to finalize the process
+7. Run `install.sh` to start the installation
+8. Restore preferences by running `mackup restore`
+9. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
 

@@ -1,12 +1,9 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/eid'
-tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 
-
 # Binaries
+brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated

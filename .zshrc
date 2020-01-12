@@ -11,7 +11,7 @@ autoload -Uz compinit && compinit
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Would you like to use another custom folder other than $ZSH/custom
-ZSH_CUSTOM=$DOTFILES
+# ZSH_CUSTOM=$DOTFILES
 
 # Which oh-my-zsh plugins would you like to load?
 # Standard plugins can bve found in ~/.oh-my-zsh/plugins/*

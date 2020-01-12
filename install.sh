@@ -24,12 +24,11 @@ chsh -s $(which zsh)
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
 
-# Clone the powerlevel9k theme because we want to use it.
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+# Clone the powerlevel9k theme because we want to use it.
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
