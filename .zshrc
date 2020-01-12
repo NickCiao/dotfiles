@@ -17,9 +17,9 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Add wisely - too many plugins slows down shell startup.
 plugins=(git z)
 
-# Use this as a font for powerlevel9k theme.
-# Must be included before loading oh-my-zsh
+# These two lines must be included before loading oh-my-zsh
 POWERLEVEL9K_MODE='nerdfont-complete'
+export TERM="xterm-256color"
 source $ZSH/oh-my-zsh.sh
 
 # Load Dotfiles
