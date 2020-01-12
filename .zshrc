@@ -10,9 +10,6 @@ autoload -Uz compinit && compinit
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-# Would you like to use another custom folder other than $ZSH/custom
-# ZSH_CUSTOM=$DOTFILES
-
 # Which oh-my-zsh plugins would you like to load?
 # Standard plugins can bve found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -28,3 +25,4 @@ source $ZSH/oh-my-zsh.sh
 # Dotfiles
 source $DOTFILES/path.zsh
 source $DOTFILES/aliases.zsh
+source $DOTFILES/powerlevel9k.zsh
