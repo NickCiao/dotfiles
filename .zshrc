@@ -22,7 +22,7 @@ plugins=(git z)
 POWERLEVEL9K_MODE='nerdfont-complete'
 source $ZSH/oh-my-zsh.sh
 
-# Dotfiles
+# Load Dotfiles
 source $DOTFILES/path.zsh
 source $DOTFILES/aliases.zsh
 source $DOTFILES/powerlevel9k.zsh

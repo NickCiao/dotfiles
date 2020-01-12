@@ -1,4 +1,5 @@
-# Go here for configuration https://github.com/Powerlevel9k/powerlevel9k
+# For configuration details, look here:
+# https://github.com/Powerlevel9k/powerlevel9k
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
