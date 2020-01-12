@@ -11,7 +11,7 @@ autoload -Uz compinit && compinit
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Which oh-my-zsh plugins would you like to load?
-# Standard plugins can bve found in ~/.oh-my-zsh/plugins/*
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(git ruby textmate)
 # Add wisely - too many plugins slows down shell startup.
