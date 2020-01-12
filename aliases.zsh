@@ -1,18 +1,14 @@
 # Shortcuts
 alias reloadcli="source $HOME/.zshrc"
-alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 weather() { curl -4 wttr.in/${1:-newyork} }
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
-alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
-
-# JS
-alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 
 # Docker
 #alias dstop="docker stop $(docker ps -a -q)"

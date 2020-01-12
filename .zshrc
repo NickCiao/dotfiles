@@ -1,18 +1,30 @@
 export DOTFILES="$HOME/.dotfiles"
 
-# Antibody
-DISABLE_AUTO_UPDATE=true
-export ZSH="$HOME/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
-source $DOTFILES/zsh_plugins.sh
+# Path to oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# Enable completions
+autoload -Uz compinit && compinit
+
+# Set name of the theme to load.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
+# Would you like to use another custom folder other than $ZSH/custom
+ZSH_CUSTOM=$DOTFILES
+
+# Which oh-my-zsh plugins would you like to load?
+# Standard plugins can bve found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(git ruby textmate)
+# Add wisely - too many plugins slows down shell startup.
+plugins=(git z)
+
+# Use this as a font for powerlevel9k theme.
+# Must be included before loading oh-my-zsh
+POWERLEVEL9K_MODE='nerdfont-complete'
+source $ZSH/oh-my-zsh.sh
 
 # Dotfiles
 source $DOTFILES/path.zsh
 source $DOTFILES/aliases.zsh
-
-# Start ssh-agent
-eval `ssh-agent`
-# Add ssh keys for prod-compute-01
-ssh-add ~/.ssh/prod-compute-01.pem
-
-# Alias aws-login
-alias aws-login='aws ecr get-login --no-include-email | sh'

@@ -1,9 +1,10 @@
 # Taps
 tap 'caskroom/cask'
 tap 'caskroom/eid'
-tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
+
 
 # Binaries
 brew 'bash' # Latest Bash version
@@ -44,14 +45,7 @@ cask 'visual-studio-code'
 cask 'whatsapp'
 
 # Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-cask 'font-menlo-for-powerline'
+cask 'font-hack-nerd-font'
 
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
