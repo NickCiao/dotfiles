@@ -7,6 +7,7 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'fzf'
 brew 'git'
 brew 'curl'
 brew 'wget'

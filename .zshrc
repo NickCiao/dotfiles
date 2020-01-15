@@ -21,6 +21,7 @@ plugins=(git z)
 source $DOTFILES/path.zsh
 source $DOTFILES/aliases.zsh
 source $DOTFILES/powerlevel9k.zsh
+source $DOTFILES/fzf.zsh
 
 # These two lines must be included before loading oh-my-zsh
 POWERLEVEL9K_MODE='nerdfont-complete'
