@@ -27,24 +27,20 @@ brew 'go'
 brew 'node'
 
 # Apps
-cask '1password'
-cask 'aerial'
-cask 'docker'
-cask 'dropbox'
-cask 'firefox'
-cask 'github'
-cask 'google-chrome'
-cask 'iterm2'
-cask 'kaleidoscope'
-cask 'postman'
-cask 'slack'
-cask 'spotify'
-cask 'typora'
-cask 'visual-studio-code'
-cask 'whatsapp'
+# cask '1password'
+# cask 'aerial'
+# cask 'docker'
+# cask 'dropbox'
+# cask 'firefox'
+# cask 'github'
+# cask 'google-chrome'
+# cask 'iterm2'
+# cask 'postman'
+# cask 'slack'
+# cask 'spotify'
+# cask 'typora'
+# cask 'visual-studio-code'
+# cask 'whatsapp'
 
 # Fonts
 cask 'font-hack-nerd-font'
-
-# Mac App Store
-mas 'Giphy Capture', id: 668208984
