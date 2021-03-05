@@ -22,6 +22,8 @@ source $DOTFILES/path.zsh
 source $DOTFILES/aliases.zsh
 source $DOTFILES/powerlevel9k.zsh
 source $DOTFILES/fzf.zsh
+source $DOTFILES/k8s.zsh
+source $DOTFILES/aws.zsh
 
 # These two lines must be included before loading oh-my-zsh
 POWERLEVEL9K_MODE='nerdfont-complete'
