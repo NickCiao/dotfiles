@@ -30,12 +30,5 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Clone the powerlevel9k theme because we want to use it.
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-# Symlink the Mackup config file to the home directory
-ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
-
 # Set global gitignore
 git config --global core.excludesfile $HOME/.dotfiles/.gitignore_global
-
-# Set macOS preferences
-# We will run this last because this will reload the shell
-source .macos

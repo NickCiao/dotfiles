@@ -3,6 +3,6 @@
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context aws kubecontext newline dir vcs newline)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context aws newline dir vcs newline)
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(newline dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs)

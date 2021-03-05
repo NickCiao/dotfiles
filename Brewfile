@@ -13,7 +13,6 @@ brew 'curl'
 brew 'wget'
 brew 'grep'
 brew 'kubernetes-cli'
-brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'ripgrep' # Used with fzf for fif() - find-in-file
 brew 'trash' # Manage the Trash bin
