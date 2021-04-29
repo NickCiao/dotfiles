@@ -28,3 +28,4 @@ source $DOTFILES/aws.zsh
 # These two lines must be included before loading oh-my-zsh
 POWERLEVEL9K_MODE='nerdfont-complete'
 source $ZSH/oh-my-zsh.sh
+[ -f "/Users/nickchow/.ghcup/env" ] && source "/Users/nickchow/.ghcup/env" # ghcup-env
