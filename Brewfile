@@ -9,6 +9,7 @@ brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'fzf'
 brew 'git'
+brew 'jq'
 brew 'curl'
 brew 'wget'
 brew 'grep'
